@@ -17,9 +17,38 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 50px;
-  background-color: rebeccapurple;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+}
+
+.navbar a:hover::before {
+  width: 100%;
 }
