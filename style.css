@@ -1,5 +1,25 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkturquoise;
+}
+
+.header {
+  color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
