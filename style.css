@@ -11,8 +11,8 @@ body {
 }
 
 .header {
-  color: green;
-  position: fixed;
+  position: relative;
+  box-shadow: rgb(0, 0, 0) 0px 0px 12px -2px;
   top: 0;
   left: 0;
   width: 100%;
@@ -51,4 +51,7 @@ body {
 
 .navbar a:hover::before {
   width: 100%;
+}
+.main {
+  display: block;
 }
